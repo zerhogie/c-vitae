@@ -7,15 +7,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Enrique Rodríguez Castañeda
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="./downloads/CV-Enrique-Rodriguez-Castaneda-02-2024.pdf"
+          download
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Descargar CV
         </a>
       </header>
     </div>
