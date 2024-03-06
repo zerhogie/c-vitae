@@ -1,0 +1,21 @@
+.toolbar {
+    &__foto {
+        height: 100%;
+    }
+    &__presentation {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 16px;
+
+        &__data {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+}
+
+.space {
+    margin-left: 8px;
+}

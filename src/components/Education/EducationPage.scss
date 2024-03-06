@@ -1,0 +1,15 @@
+.education {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8px;
+    &__card {
+        margin: 8px;
+        flex: 1;
+        border-bottom: solid;
+        border-bottom-width: thin;
+        border-bottom-color: aqua;
+        border-top: solid;
+        border-top-width: thin;
+        border-top-color: aqua;
+     }
+}
