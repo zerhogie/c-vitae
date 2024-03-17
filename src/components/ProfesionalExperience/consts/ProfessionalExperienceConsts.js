@@ -30,7 +30,7 @@ export const NETEX = {
     "Netex es una empresa multinacional con un excelente producto, propiamente me dedicaba a adaptar ese producto para el cliente Sergas, " +
     "pero esporádicamente hacía proyectos internos para facilitar el trabajo mío y de mis compañeros. Para ello hice uso de herramientas " +
     "como Django y python, sin embargo en la mayor parte del tiempo usabamos spring-boot para back, y javascript con html para el front.",
-    period: "2017 - 2018",
+    period: "2019 - 2020",
 }
 
 export const PROSL = {
@@ -63,5 +63,5 @@ export const ODEENE = {
     "en la página de seguros del banco, para ello trabajamos con gitlab para gestionar las tareas y las integraciones continuas. Trabajamos bajo la metodología " +
     "SCRUM. El desarrollo de las apis se hace en .Net y su publicación en RAML. Por otro lado, el desarrollo del frontend se hace en Angular con altos estándares " +
     "debido al tamaño del proyecto que ha generado la necesidad de dividirnos en diferentes equipo.",
-    period: "Mayo 2021 - Actualmente",
+    period: "Mayo 2022 - Actualmente",
 }
