@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/c-vitae/static/css/main.a66dfec6.css",
-    "main.js": "/c-vitae/static/js/main.e231cd8b.js",
+    "main.js": "/c-vitae/static/js/main.4c001069.js",
     "static/js/453.491b99e8.chunk.js": "/c-vitae/static/js/453.491b99e8.chunk.js",
     "static/media/foto-cv.png": "/c-vitae/static/media/foto-cv.e678c4fa03007095ec1c.png",
     "index.html": "/c-vitae/index.html",
     "main.a66dfec6.css.map": "/c-vitae/static/css/main.a66dfec6.css.map",
-    "main.e231cd8b.js.map": "/c-vitae/static/js/main.e231cd8b.js.map",
+    "main.4c001069.js.map": "/c-vitae/static/js/main.4c001069.js.map",
     "453.491b99e8.chunk.js.map": "/c-vitae/static/js/453.491b99e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a66dfec6.css",
-    "static/js/main.e231cd8b.js"
+    "static/js/main.4c001069.js"
   ]
 }
