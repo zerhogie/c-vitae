@@ -1,6 +1,7 @@
 import React from 'react';
 import { AppBar, Toolbar, Typography, Button, Avatar, Box } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import foto from '../../foto-cv.png';
 import './Header.scss';
 
@@ -12,7 +13,7 @@ const Header = () => {
                     variant="square"
                     alt="Enrique Rodríguez Castañeda"
                     src={foto}
-                    sx={{ width: 64, height: 64 }} />
+                    sx={{ width: 96, height: 96 }} />
                 <Box className="toolbar__presentation">
                     <Box className="toolbar__presentation__data">
                         <Typography variant="h4">
@@ -29,13 +30,23 @@ const Header = () => {
                         <Typography variant="subtitle1">
                             <strong>Ubicación:</strong> A Coruña, España
                         </Typography>
-                        <Button variant="contained"
-                            color="secondary"
-                            onClick={() => window.open('https://github.com/zerhogie', '_blank', 'noopener,noreferrer')}
-                        >
-                            <GitHubIcon /> <div class="space"> GitHub: zerhogie</div>
-                        </Button>
                     </Box>
+                </Box>
+                <Box className='toolbar__actions'>
+                    <Button variant="contained"
+                        color="secondary"
+                        component="a"
+                        href="./downloads/CV-Enrique-Rodriguez-Castaneda-02-2024.pdf"
+                        download
+                    >
+                        <FileDownloadIcon /> <div class="space"> Descargar CV</div>
+                    </Button>
+                    <Button variant="contained"
+                        color="secondary"
+                        onClick={() => window.open('https://github.com/zerhogie', '_blank', 'noopener,noreferrer')}
+                    >
+                        <GitHubIcon /> <div class="space"> GitHub: zerhogie</div>
+                    </Button>
                 </Box>
             </Toolbar>
         </AppBar>

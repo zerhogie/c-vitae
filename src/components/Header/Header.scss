@@ -1,4 +1,5 @@
 .toolbar {
+    color: adjust-color($color: #51c76a);
     &__foto {
         height: 100%;
     }
@@ -14,6 +15,15 @@
             align-items: center;
         }
     }
+    &__actions {
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        :first-child {
+            margin-bottom: 8px;
+        }
+    }
+    
 }
 
 .space {

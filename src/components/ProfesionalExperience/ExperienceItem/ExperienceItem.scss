@@ -1,0 +1,47 @@
+.experience {
+    &__summary {
+      background-color: #263238; // Un color oscuro para el fondo del summary
+      color: #fff; // Letras claras para contrastar con el fondo oscuro
+  
+      .MuiAccordionSummary-content {
+        justify-content: space-between; // Distribuir el espacio entre el título y la compañía
+        margin: 0.5rem 0; // Margen vertical para el contenido
+  
+        .MuiTypography-root {
+          flex-basis: 48%; // Casi la mitad del ancho disponible para el título y la compañía
+        }
+      }
+  
+      .MuiTypography-h6 {
+        font-size: 1.1rem; // Tamaño del título
+        font-weight: 600; // Peso de la fuente para el título
+      }
+  
+      .MuiTypography-subtitle1 {
+        text-align: right; // Alinear la compañía a la derecha
+        font-size: 0.9rem; // Tamaño de la fuente para la compañía
+      }
+  
+      .MuiAccordionSummary-expandIcon {
+        color: #fff; // Color del ícono expandible para que se vea claramente
+      }
+    }
+  
+    &__details {
+      background-color: #394347; // Un color claro para los detalles
+      color: #e6e6e6; // Un color oscuro para el texto, asegurando contraste
+      padding: 1rem; // Espacio interior para los detalles
+  
+      .MuiTypography-body1 {
+        margin-bottom: 1rem; // Margen inferior para la descripción
+        padding: 0 1.5rem;
+      }
+  
+      .MuiTypography-caption {
+        display: block; // Hacer que el período se muestre en su propia línea
+        color: #e6e6e6; // Un color gris muy claro para el período
+        font-size: 1.2rem; // Un tamaño de fuente más pequeño para el período
+        text-align: right; // Alinear el período a la derecha
+      }
+    }
+  }
